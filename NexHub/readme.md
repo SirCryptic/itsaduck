@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/63b7bcba-93e5-41a5-960d-a60b1afa9ec9)
+
+
 # NexHub
 
 A compact tool designed for penetration testers to set up listeners and a file server alongside **Ducky** scripts. NexHub simplifies managing Ncat listeners and hosting files for exfiltration or payload delivery during pentesting.
