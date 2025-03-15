@@ -1,6 +1,6 @@
 # NexHub
 
-A compact tool designed for penetration testers to set up listeners and a file server alongside **Rubber Ducky** scripts. NexHub simplifies managing Ncat listeners and hosting files for exfiltration or payload delivery during pentesting.
+A compact tool designed for penetration testers to set up listeners and a file server alongside **Ducky** scripts. NexHub simplifies managing Ncat listeners and hosting files for exfiltration or payload delivery during pentesting.
 
 ## Features
 - **Listener Setup**: Configure and start Ncat listeners for Rubber Ducky payloads.
