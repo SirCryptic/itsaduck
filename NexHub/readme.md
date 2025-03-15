@@ -9,7 +9,7 @@ A compact tool designed for penetration testers to set up listeners and a file s
 - **Listener Setup**: Configure and start Ncat listeners for Rubber Ducky payloads.
 - **File Server**: Host files for easy access or exfiltration via a web interface.
 - **Upload Management**: Upload files with overwrite prompts for control.
-- **Pentesting Focus**: Built to streamline Rubber Ducky workflows.
+- **Pentesting Focus**: Built to streamline BadUSB Attack workflows.
 
 ## Usage
 1. Launch `NexHub.ps1` with admin rights.
