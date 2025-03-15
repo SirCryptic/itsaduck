@@ -143,7 +143,6 @@ function Start-Server {
         }
         if (-not (Test-Path $serverDir)) { New-Item -Path $serverDir -ItemType Directory | Out-Null }
         
-        # Corrected upload.php content with proper escaping
         $phpUploadContent = @'
 <?php
 header("Content-Type: application/json");
@@ -178,7 +177,6 @@ echo json_encode($response);
 '@
         Set-Content -Path $uploadScript -Value $phpUploadContent
 
-        # Existing download.php content
         $phpDownloadContent = @'
 <?php
 if (isset($_GET["file"])) {
@@ -201,7 +199,6 @@ if (isset($_GET["file"])) {
 '@
         Set-Content -Path "$serverDir\download.php" -Value $phpDownloadContent
 
-        # Existing index.php content (unchanged for this fix)
         $phpIndexContent = @"
 <?php
 `$dir = 'uploads/';
