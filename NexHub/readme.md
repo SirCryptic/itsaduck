@@ -13,7 +13,7 @@ A compact tool designed for penetration testers to set up listeners and a file s
 
 ## Usage
 1. Launch `NexHub.ps1` with admin rights.
-2. Start the listener (option 2) for Rubber Ducky script callbacks.
+2. Start the listener (option 2) for Ducky script callbacks.
 3. Start the server (option 3) to host files at `http://<serverIP>:80`.
 
 ## Requirements
